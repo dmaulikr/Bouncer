@@ -20,9 +20,13 @@ class BouncerBehavior: UIDynamicBehavior {
     lazy var BlockBehavior: UIDynamicItemBehavior = {
         let createdBlockBehavior = UIDynamicItemBehavior()
         createdBlockBehavior.allowsRotation = true
-        createdBlockBehavior.elasticity = 0.85
+        createdBlockBehavior.elasticity = CGFloat(NSUserDefaults.standardUserDefaults().doubleForKey("BouncerBehavior.Elasticity"))
         createdBlockBehavior.friction = 0
         createdBlockBehavior.resistance = 0
+        
+        NSNotificationCenter.defaultCenter().addObserverForName(NSUserDefaultsDidChangeNotification, object: nil, queue: nil) { (notification) -> Void in
+            createdBlockBehavior.elasticity = CGFloat(NSUserDefaults.standardUserDefaults().doubleForKey("BouncerBehavior.Elasticity"))
+        }
         return createdBlockBehavior
         }()
     

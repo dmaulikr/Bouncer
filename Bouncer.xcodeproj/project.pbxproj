@@ -14,6 +14,7 @@
 		F5C835311ADBF5400093DDD6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C8352F1ADBF5400093DDD6 /* LaunchScreen.xib */; };
 		F5C8353D1ADBF5400093DDD6 /* BouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C8353C1ADBF5400093DDD6 /* BouncerTests.swift */; };
 		F5C835471ADBF5730093DDD6 /* BouncerBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C835461ADBF5730093DDD6 /* BouncerBehavior.swift */; };
+		F5F7E7151AE1450900F538F0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5F7E7141AE1450900F538F0 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		F5C8353B1ADBF5400093DDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5C8353C1ADBF5400093DDD6 /* BouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncerTests.swift; sourceTree = "<group>"; };
 		F5C835461ADBF5730093DDD6 /* BouncerBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncerBehavior.swift; sourceTree = "<group>"; };
+		F5F7E7141AE1450900F538F0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				F5C835261ADBF5400093DDD6 /* AppDelegate.swift */,
 				F5C835281ADBF5400093DDD6 /* ViewController.swift */,
 				F5C835461ADBF5730093DDD6 /* BouncerBehavior.swift */,
+				F5F7E7141AE1450900F538F0 /* Settings.bundle */,
 				F5C8352A1ADBF5400093DDD6 /* Main.storyboard */,
 				F5C835241ADBF5400093DDD6 /* Supporting Files */,
 			);
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F7E7151AE1450900F538F0 /* Settings.bundle in Resources */,
 				F5C8352C1ADBF5400093DDD6 /* Main.storyboard in Resources */,
 				F5C835311ADBF5400093DDD6 /* LaunchScreen.xib in Resources */,
 				F5C8352E1ADBF5400093DDD6 /* Images.xcassets in Resources */,
